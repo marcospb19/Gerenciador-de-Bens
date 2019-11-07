@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         //Criação do objeto bot com as informações de acesso
-        TelegramBot bot = TelegramBotAdapter.build("1029885932:AAGUoMc-SnBq87e9gVeN-HzHv0KAOkt9LtE");
+        TelegramBot bot = TelegramBotAdapter.build("Token_Here");
 
         //objeto responsável por receber as mensagens
         GetUpdatesResponse updatesResponse;
