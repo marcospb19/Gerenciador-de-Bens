@@ -1,3 +1,4 @@
+package br.ufrn.imd.lpii.telegram.bot;
 
 
 class Bem
@@ -7,8 +8,18 @@ class Bem
 	long codigo_do_bem;
 
 
-	Categoria categoria_do_bem;
+	CategoriaModel categoria_do_bem;
 	Localizacao localizacao_do_bem;
+	
+	/*
+	Localizacao local = new Localizacao();
+	Bem bem = new Bem(asas, asas, asas);
+	bem.setLocalizacao(local);
+	
+	setLocalizacao(Localizacao local){
+		this.localizacao_do_bem(local.descricao_da_localizacao, local.nome_da_localizacao);
+	}
+	*/
 
 	Bem(String nome_do_bem , String descricao_do_bem , long codigo_do_bem) {
 
@@ -29,7 +40,7 @@ class Bem
 	long getCodigoDoBem() {
 		return this.codigo_do_bem;
 	}
-	Categoria getCategoriaDoBem() {
+	CategoriaModel getCategoriaDoBem() {
 		return this.categoria_do_bem;
 	}
 	Localizacao getLocalizacaoDoBem() {
@@ -44,7 +55,7 @@ class Bem
 	void setCodigoDoBem(int codigo_do_bem) {
 		this.codigo_do_bem = codigo_do_bem;
 	}
-	void setCategoriaDoBem(Categoria categoria_do_bem) {
+	void setCategoriaDoBem(CategoriaModel categoria_do_bem) {
 		this.categoria_do_bem = categoria_do_bem;
 	}
 	void setLocalizacaoDoBem(Localizacao localizacao_do_bem) {

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/TelegramBot"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="gson-2.7" value="project"/>
+		<level name="java-telegram-bot-api-2.1.2" value="project"/>
+		<level name="okhttp-3.4.1" value="project"/>
+		<level name="okio-1.10.0" value="project"/>
+	</levels>
+</component>

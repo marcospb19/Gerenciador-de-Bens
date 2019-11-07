@@ -1,3 +1,4 @@
+package br.ufrn.imd.lpii.telegram.bot;
 // Localização do bem
 class CategoriaModel
 {
@@ -5,7 +6,7 @@ class CategoriaModel
 	String descricao_da_categoria;
 	long codigo_da_categoria;
 
-	Categoria(String nome_da_categoria,
+	CategoriaModel(String nome_da_categoria,
 	          String descricao_da_categoria,
 	          long codigo_da_categoria) {
 		this.nome_da_categoria      = nome_da_categoria;

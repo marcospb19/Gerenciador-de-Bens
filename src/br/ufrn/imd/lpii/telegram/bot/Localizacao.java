@@ -1,3 +1,4 @@
+package br.ufrn.imd.lpii.telegram.bot;
 
 // Localização do bem
 class Localizacao

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="gson-2.7">
+    <archive path="/home/solino/IdeaProjects/TelegramBot/lib/gson-2.7.jar" />
+  </library>
+  <library name="okhttp-3.4.1">
+    <archive path="/home/solino/IdeaProjects/TelegramBot/lib/okhttp-3.4.1.jar" />
+  </library>
+  <library name="okio-1.10.0">
+    <archive path="/home/solino/IdeaProjects/TelegramBot/lib/okio-1.10.0.jar" />
+  </library>
+  <library name="java-telegram-bot-api-2.1.2">
+    <archive path="/home/solino/IdeaProjects/TelegramBot/lib/java-telegram-bot-api-2.1.2.jar" />
+  </library>
+</eclipse-userlibraries>
+
